@@ -1,0 +1,30 @@
+﻿Program ZPGQuest;
+uses crt;
+var name : string;
+gold := 100;
+hp := 100;
+lvl := 1;
+pet := ('Dog');
+pethp := 100;
+petlvl := 1;
+begin
+  writeln('ZPGQuest');
+  writeln('');
+  write('Name: ');
+  readln(name);
+  write('Gold: ');
+  writeln(gold);
+  write('HP: ');
+  writeln(hp);
+  write('LVL: ');
+  writeln(lvl);
+  writeln('');
+  write('Pet: ');
+  writeln(pet);
+  write('HP: ');
+  writeln(pethp);
+  write('LVL: ');
+  writeln(petlvl);
+  writeln('');
+  readln;
+end.
